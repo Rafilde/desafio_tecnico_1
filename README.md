@@ -16,3 +16,7 @@ Implementei uma função que recebe um número inteiro positivo e retorna o soma
 Um [vídeo explicativo](https://www.youtube.com/watch?v=KxR9QMPdV78&ab_channel=RafaelSilva) do funcionamento do aplicativo.
 
 É importante mencionar que o campo de entrada aceita apenas números. Se for inserida alguma letra ou caractere não numérico, o aplicativo não adicionará a entrada.
+
+## Estrutura do Código Fonte
+
+O código fonte está localizado na pasta `lib` e o arquivo principal é o `Main.dart`, onde se encontra a lógica e a interface.
