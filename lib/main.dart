@@ -57,6 +57,10 @@ class _MyHomePageState extends State<MyHomePage> {
                     if (_controller.text.isEmpty) {
                       result = "Campo vazio";
                       numbers.clear();
+                    } else if (0 == Calculate(int.tryParse(_controller.text)!)) {
+                      result = "vazio";
+                        _controller.clear();
+                        numbers.clear();
                     } else {
                       numbers.clear();
                       result =
